@@ -16,7 +16,7 @@ public class LargeDocumentIngestion {
     private final VectorStore vectorStore;
 
     // Inject the PDF resource from the resources folder
-    @Value("classpath:/gf_10-1.pdf")
+    @Value("classpath:/gf_10-2.pdf")
     private Resource pdfResource;
 
     public LargeDocumentIngestion(VectorStore vectorStore) {
